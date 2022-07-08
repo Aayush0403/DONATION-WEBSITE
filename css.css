@@ -1,0 +1,263 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav
+{
+    background-color: rgb(203, 236, 252);
+    height: 70px;
+    
+}
+
+nav ul
+{
+    display: flex;
+    justify-content:right; 
+    align-items: center;
+    padding: 8px; 
+    cursor: pointer; 
+}
+nav ul li
+{
+    margin: 7px;
+    padding: 12px;
+    list-style: none;
+   
+    
+}
+nav ul li a
+{
+    text-decoration: none;
+    color:brown;
+    font-weight: bolder;
+    font-size: larger;
+}
+ nav ul li:hover
+{
+    transform: scale(1.2);
+    background-color: rgba(4, 5, 8, 0.116);
+}
+ .imag 
+{
+    position:absolute;
+    top: 0;
+    left:0;
+}
+.bckgrnd
+{
+    background-image: url(donate.jpg);
+    background-size: 100% 100%;
+    height:95vh;
+    width:auto;
+}
+
+.over
+{
+    position: absolute;
+    top: 35px;
+    left: 0;
+    height: 95vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+    filter: blur(20px);
+
+}
+.containt
+{
+    height: 40vh;
+    width: auto;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    color: yellow;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    padding-top: 50px;
+    font-size: 35px;  
+}
+.containt #word
+{
+    font-size: 50px;
+}
+.containt span
+{
+    color: white;
+}
+#about
+{
+    
+    padding: 15px;
+    height: 300px;
+    background-color:black;
+    opacity: .9;
+    box-shadow: 5px 5px 15px gray,-5px -5px 15px gray ;
+    
+}
+#about h1
+{
+    color: red;
+    font-weight: bold;
+    padding-bottom: 18px;
+    padding-top: 20px;
+    font-size:50px;
+} 
+#about h4
+{
+    padding-left: 30px;
+    color: white;
+
+}
+#find
+{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.icon
+{
+    text-align: center;
+}
+
+#end
+{
+    background-color: black;
+    opacity: .7;
+    color:yellow;
+    text-align: center;
+    height: 50px;
+    padding: 20px;
+    margin-top:8px ;
+}
+#gallary1
+{
+    display: flex;
+    justify-content:space-around;
+    overflow-x: hidden;
+    cursor: pointer;
+    transition: all 1.5sec;
+    margin: 2px;
+}
+#gallary2
+{
+    display: flex;
+    justify-content:space-around;
+    overflow-x: hidden;
+    transition: all 1.5sec;
+    cursor: pointer;
+}
+#gallary1 li:hover
+{
+    transform: scale(0.9);
+    
+}
+#gallary2 li:hover
+{
+    transform: scale(0.9);
+}
+section h1
+{
+    margin: 25px;
+    margin-top: 0;
+    font-size: 30px;
+    color: red;
+    padding-top: 30px;
+}
+.container
+{
+    background-color: rgb(170, 255, 255);
+    box-shadow: 13px 13px 25px gray,-3px -3px 5px gray;
+}
+#btn
+{
+    height: 40px;
+    width: 180px;
+    font-size: 30px;
+    color:white;
+    border: 3px solid white;
+    cursor: pointer;
+    position: absolute;
+    left: 180px;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: 5px 5px 30px gray inset,-5px -5px 30px gray inset;
+}
+
+#pay
+{
+    opacity: 0;
+}
+
+
+@media screen and (max-width:950px)
+{
+    .imag 
+{
+    position:absolute;
+    top: 65px;
+    left:-30px;
+}
+.containt
+{
+    height: 40vh;
+    width: auto;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    padding: 20px;
+    padding-top: 50px;
+    font-size: 25px;  
+}
+
+#about 
+{
+    
+    padding: 0px;
+    
+}
+#about h4
+{
+    
+    padding: 4px;
+    
+}
+#about h1
+{
+    padding-bottom: 0px;
+    padding-top: 15px;
+    font-size:27px;
+} 
+
+.bckgrnd
+{
+    height:60vh;
+    width:auto;
+}
+nav ul li
+{
+    margin: 7px;
+    padding: 10px;
+    list-style: none;
+    font-size: 13px; 
+}
+.imag img
+{
+    height: 170px;
+}
+#btn
+{
+    left: 155px;
+    top: 210px;
+}
+#gallary1,#gallary2
+{
+    display:block;
+   overflow-x: hidden;
+   padding-left: 5px;
+}
+}
+
