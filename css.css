@@ -231,7 +231,10 @@ section h1
     padding-top: 15px;
     font-size:27px;
 } 
-
+#end
+{
+    font-size:13px;
+}
 .bckgrnd
 {
     height:60vh;
